@@ -26,12 +26,27 @@ Content-Type: application/json
 
 ######
 
-GET http://localhost:3001/usuario/1
+GET http://localhost:3001/usuario/2
 
 ######
 
 DELETE http://localhost:3001/usuario/1
 Content-Type: application/json
 
+######
+
+GET http://localhost:3001/pre_armado_producto
 
 ######
+
+POST http://localhost:3001/pre_armado_producto
+Content-Type: application/json
+
+{
+    "pre_armado_id": 1,
+    "producto_id": 1
+}
+
+######
+
+GET http://localhost:3001/pre_armado_producto/1
