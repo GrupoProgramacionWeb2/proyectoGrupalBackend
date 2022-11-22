@@ -12,6 +12,26 @@ Content-Type: application/json
     "contrasena": "EresONoEres"
 }
 
+######
+
+POST http://localhost:3001/usuario
+Content-Type: application/json
+
+{
+    "nombre": "Luigui",
+    "apellido": "Paredes",
+    "correo": "luiguiParedes@yopmail.com",
+    "contrasena": "holamundo"
+}
 
 ######
 
+GET http://localhost:3001/usuario/1
+
+######
+
+DELETE http://localhost:3001/usuario/1
+Content-Type: application/json
+
+
+######
