@@ -27,12 +27,12 @@ const findAll = async () => {
 
 }
 
-const findOne = async (id) => {
+const findOne = async (detalle_id) => {
 
     try {
         return await Detalle_usuario.findOne({
             where: {
-                id
+                detalle_id
             }
         })
     } catch (error) {
@@ -44,7 +44,7 @@ const findOne = async (id) => {
 
 const update = async (usuario) => {
     try {
-        const founddetalle_usuarsio = await Detalle_usuario.findOne({
+        const founddetalle_usuario = await Detalle_usuario.findOne({
             where: {
                 usuario_id: usuario.id
             }
@@ -59,12 +59,12 @@ const update = async (usuario) => {
     }
 }
 
-const remove = async (id) => {
+const remove = async (detalle_id) => {
 
     try {
         await Detalle_usuario.destroy({
             where: {
-                id
+                detalle_id
             }
         })
 

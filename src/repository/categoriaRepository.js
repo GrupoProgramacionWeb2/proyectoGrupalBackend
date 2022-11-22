@@ -27,12 +27,12 @@ const findAll = async () => {
 
 }
 
-const findOne = async (id) => {
+const findOne = async (categoria_id) => {
 
     try {
         return await Categoria.findOne({
             where: {
-                id
+                categoria_id
             }
         })
     } catch (error) {
@@ -59,12 +59,12 @@ const update = async (categoria) => {
     }
 }
 
-const remove = async (id) => {
+const remove = async (categoria_id) => {
 
     try {
         await Categoria.destroy({
             where: {
-                id
+                categoria_id
             }
         })
 

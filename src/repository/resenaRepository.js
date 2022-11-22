@@ -27,12 +27,12 @@ const findAll = async () => {
 
 }
 
-const findOne = async (id) => {
+const findOne = async (resena_id) => {
 
     try {
         return await Resena.findOne({
             where: {
-                id
+                resena_id
             }
         })
     } catch (error) {
@@ -59,12 +59,12 @@ const update = async (resena) => {
     }
 }
 
-const remove = async (id) => {
+const remove = async (resena_id) => {
 
     try {
         await Resena.destroy({
             where: {
-                id
+                resena_id
             }
         })
 
