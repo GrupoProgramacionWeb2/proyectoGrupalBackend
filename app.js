@@ -2,17 +2,17 @@ import express from 'express';
 import cors from "cors";
 import bodyParser from 'body-parser';
 
-import usuarioRoutes from './routes/usuario.js';
-import detalle_usuarioRoutes from './routes/detalle_usuario';
-import reporteRoutes from './routes/reporte.js';
-import ordenRoutes from './routes/orden.js';
-import orden_productoRoutes from './routes/orden_producto.js';
-import productoRoutes from './routes/producto.js';
-import categoriaRoutes from './routes/categoria.js';
-import pre_armado_productoRoutes from './routes/pre_armado_producto.js';
-import pre_armadoRoutes from './routes/pre_armado.js';
-import resenaRoutes from './routes/resena.js';
-import tipo_resenaRoutes from './routes/tipo_resena.js';
+import usuarioRoutes from './src/routes/usuario.js';
+import detalle_usuarioRoutes from './src/routes/detalle_usuario';
+import reporteRoutes from './src/routes/reporte.js';
+import ordenRoutes from './src/routes/orden.js';
+import orden_productoRoutes from './src/routes/orden_producto.js';
+import productoRoutes from './src/routes/producto.js';
+import categoriaRoutes from './src/routes/categoria.js';
+import pre_armado_productoRoutes from './src/routes/pre_armado_producto.js';
+import pre_armadoRoutes from './src/routes/pre_armado.js';
+import resenaRoutes from './src/routes/resena.js';
+import tipo_resenaRoutes from './src/routes/tipo_resena.js';
 
 var app = express();
 
