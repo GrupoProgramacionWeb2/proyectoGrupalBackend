@@ -6,10 +6,10 @@ POST http://localhost:3001/usuario
 Content-Type: application/json
 
 {
-    "name": "Alonso",
+    "nombre": "Alonso",
     "apellido": "Caceres",
     "correo": "alonsoCaceres@yopmail.com",
-    "contraseña": "EresONoEres"
+    "contrasena": "EresONoEres"
 }
 
 
