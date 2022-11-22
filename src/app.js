@@ -1,9 +1,18 @@
-import express from 'express'
+import express from 'express';
 import cors from "cors";
-import bodyParser from 'body-parser'
+import bodyParser from 'body-parser';
 
-import coursesRoutes from './src/routes/courses.js'
-import professorRoutes from './src/routes/professors.js'
+import usuarioRoutes from './routes/usuario.js';
+import detalle_usuarioRoutes from './routes/detalle_usuario';
+import reporteRoutes from './routes/reporte.js';
+import ordenRoutes from './routes/orden.js';
+import orden_productoRoutes from './routes/orden_producto.js';
+import productoRoutes from './routes/producto.js';
+import categoriaRoutes from './routes/categoria.js';
+import pre_armado_productoRoutes from './routes/pre_armado_producto.js';
+import pre_armadoRoutes from './routes/pre_armado.js';
+import resenaRoutes from './routes/resena.js';
+import tipo_resenaRoutes from './routes/tipo_resena.js';
 
 var app = express();
 
@@ -11,8 +20,26 @@ app.use(cors());
 
 app.use(bodyParser.json());
 
-app.use("/courses", coursesRoutes);
+app.use("/usuario", usuarioRoutes);
 
-app.use("/professors", professorRoutes);
+app.use("/detalle_usuario", detalle_usuarioRoutes);
+
+app.use("/reporte", reporteRoutes);
+
+app.use("/orden", ordenRoutes);
+
+app.use("/orden_producto", orden_productoRoutes);
+
+app.use("/producto", productoRoutes);
+
+app.use("/categoria", categoriaRoutes);
+
+app.use("/pre_armado_producto", pre_armado_productoRoutes);
+
+app.use("/pre_armado", pre_armadoRoutes);
+
+app.use("/resena", resenaRoutes);
+
+app.use("/tipo_resena", tipo_resenaRoutes);
 
 export default app;
