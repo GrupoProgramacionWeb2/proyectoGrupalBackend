@@ -43,6 +43,6 @@ else
     return res.status(500).json({message: 'An error has ocurred.'})
 }
 
-const ResenaCosntroller = { create, findAll, findOne, update, remove }
+const ResenaController = { create, findAll, findOne, update, remove }
 
 export default ResenaController;

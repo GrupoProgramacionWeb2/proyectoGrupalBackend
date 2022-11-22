@@ -3,7 +3,7 @@ import cors from "cors";
 import bodyParser from 'body-parser';
 
 import usuarioRoutes from './src/routes/usuario.js';
-import detalle_usuarioRoutes from './src/routes/detalle_usuario';
+import detalle_usuarioRoutes from './src/routes/detalle_usuario.js';
 import reporteRoutes from './src/routes/reporte.js';
 import ordenRoutes from './src/routes/orden.js';
 import orden_productoRoutes from './src/routes/orden_producto.js';
