@@ -28,7 +28,7 @@ const Usuario = sequelize.define('usuario', {
     }
 })
 // desarrollo
-
+/*
 Usuario.hasMany(Detalle_usuario, {
     sourceKey: 'usuario_id',
     foreignKey: 'detalle_id'
@@ -59,5 +59,5 @@ Course.belongsTo(Professor,{
     foreignKey: 'projectId',
     targetId: 'id'
 })
-
+*/
 export default Usuario;
