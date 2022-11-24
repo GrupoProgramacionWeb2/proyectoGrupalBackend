@@ -16,7 +16,7 @@ async function main() {
 
         app.listen(PORT)
 
-        console.log('App Iniciada en puerto '+PORT)
+        console.log('App Iniciada en puerto '+ PORT)
 
     } catch (error) {
         console.error('Connection error', error)
