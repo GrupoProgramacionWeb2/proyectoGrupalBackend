@@ -30,7 +30,7 @@ GET http://localhost:3001/usuario/2
 
 ######
 
-DELETE http://localhost:3001/usuario/1
+DELETE http://localhost:3001/usuario/3
 Content-Type: application/json
 
 ######
