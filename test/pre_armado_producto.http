@@ -1,0 +1,15 @@
+GET https://proyectogrupalbackend-production.up.railway.app/pre_armado_producto
+
+######
+
+POST https://proyectogrupalbackend-production.up.railway.app/pre_armado_producto
+Content-Type: application/json
+
+{
+    "pre_armado_id": 1,
+    "producto_id": 1
+}
+
+######
+
+GET https://proyectogrupalbackend-production.up.railway.app/pre_armado_producto/1
