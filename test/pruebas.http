@@ -1,4 +1,4 @@
-GET http://localhost:3001/usuario
+GET https://proyectogrupalbackend-production.up.railway.app/usuario
 
 ######
 
