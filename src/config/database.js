@@ -1,7 +1,7 @@
 import Sequelize from 'sequelize';
 import dotenv from 'dotenv';
 
-dotenv.config()
+dotenv.config();
 
 const hostname = process.env.HOSTNAME  || '127.0.0.1'
 const username = process.env.USERNAME  || 'postgres'
