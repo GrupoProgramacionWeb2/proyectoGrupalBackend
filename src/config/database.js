@@ -1,14 +1,14 @@
-import Sequelize from 'sequelize';
+import Sequelize from 'sequelize';/*
 import dotenv from 'dotenv';
 
-dotenv.config();
+dotenv.config();*/
 
-const hostname = process.env.HOSTNAME  || 'containers-us-west-92.railway.app'
-const username = process.env.USERNAME  || 'postgres'
-const password = process.env.PASSWORD  || '9XegNBbga35LpJLrNYSa'
-const database = process.env.DATABASE  || 'railway'
-const dialect = process.env.DIALECT  || 'postgres'
-const port = process.env.DBPORT  || 6514
+const hostname =  '127.0.0.1'
+const username =  'postgres'
+const password =  '123'
+const database =  'postgres'
+const dialect = 'postgres'
+const port = 5433
 
 const sequelize = new Sequelize(database ,username ,password, {
     host: hostname,
