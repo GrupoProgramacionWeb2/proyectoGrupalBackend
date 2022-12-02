@@ -7,7 +7,7 @@ const hostname = process.env.HOSTNAME
 const username = process.env.USERNAME
 const password = process.env.PASSWORD
 const database = process.env.DATABASE
-const dialect = process.env.DIALECT
+const dialect = process.env.DIALECT || 'postgres'
 const port = process.env.DBPORT
 
 const sequelize = new Sequelize(database ,username ,password, {
