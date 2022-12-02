@@ -1,6 +1,6 @@
 GET https://proyectogrupalbackend-production.up.railway.app/usuario
 
-######g
+######
 
 POST https://proyectogrupalbackend-production.up.railway.app/usuario
 Content-Type: application/json
