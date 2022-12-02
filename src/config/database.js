@@ -3,12 +3,12 @@ import dotenv from 'dotenv';
 
 dotenv.config();
 
-const hostname = process.env.HOSTNAME  || '127.0.0.1'
-const username = process.env.USERNAME  || 'postgres'
-const password = process.env.PASSWORD  || '123'
-const database = process.env.DATABASE  || 'postgres'
-const dialect = process.env.DIALECT  || 'postgres'
-const port = process.env.DBPORT  || 5433
+const hostname = process.env.HOSTNAME
+const username = process.env.USERNAME
+const password = process.env.PASSWORD
+const database = process.env.DATABASE
+const dialect = process.env.DIALECT
+const port = process.env.DBPORT
 
 const sequelize = new Sequelize(database ,username ,password, {
     host: hostname,
