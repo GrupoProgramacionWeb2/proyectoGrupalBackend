@@ -12,7 +12,7 @@ async function main() {
         
         console.log('Connection successful')
         
-        var PORT = process.env.DBPORT || 3001
+        var PORT = 5433
 
         app.listen(PORT)
 
