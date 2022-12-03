@@ -1,8 +1,8 @@
-GET https://proyectogrupalbackend-production.up.railway.app/usuario
+GET http://localhost:3001/usuario
 
 ######
 
-POST https://proyectogrupalbackend-production.up.railway.app/usuario
+POST http://localhost:3001/usuario
 Content-Type: application/json
 
 {
