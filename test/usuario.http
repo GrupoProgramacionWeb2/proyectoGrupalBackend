@@ -9,7 +9,7 @@ Content-Type: application/json
     "nombre": "Alonso",
     "apellido": "Caceres",
     "correo": "alonsoCaceres@yopmail.com",
-    "contrasena": "EresONoEres"
+    "contrasena": "123"
 }
 
 ######
