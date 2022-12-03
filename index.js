@@ -12,7 +12,7 @@ async function main() {
         
         console.log('Connection successful')
         
-        var PORT = 5433
+        var PORT = procces.env.DBPORT || 5433
 
         app.listen(PORT)
 
